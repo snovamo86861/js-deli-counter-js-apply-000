@@ -32,6 +32,24 @@ function takeANumber(line, name){
   
   return "Welcome, " + name + ". You are number " + line.length + " in line."
 }
+//set customer account 
+// everything the fuction gets call increase the custmer count by 1 i++
+// return string  "Welcome your order number is ['.'] length
+
+var customer = 0;
+function takeANumber2(){
+  console.log(customer ++);
+return "Welcome your order number is ['.'] " + customer
+
+}
+
+console.log(takeANumber2())
+console.log(takeANumber2())
+console.log(takeANumber2())
+
+
+
+
 takeANumber(katzDeli, "Ada")
 takeANumber(katzDeli, "Grace")
 takeANumber(katzDeli, "Kent")
